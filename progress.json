@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-03T04:46:09.508Z",
+  "items": {
+    "problem:22": {
+      "kind": "problem",
+      "id": "22",
+      "title": "Sigmoid Activation Function Understanding",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/22",
+      "path": "problems/0022-sigmoid-activation-function-understanding",
+      "first_solved_at": "2026-09-30T17:36:44.257Z",
+      "last_pushed_at": "2026-09-30T17:36:44.257Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:24": {
+      "kind": "problem",
+      "id": "24",
+      "title": "Single Neuron",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/24",
+      "path": "problems/0024-single-neuron",
+      "first_solved_at": "2026-09-30T18:00:25.226Z",
+      "last_pushed_at": "2026-09-30T18:00:25.226Z",
+      "language": "python",
+      "lines": 15
+    },
+    "problem:42": {
+      "kind": "problem",
+      "id": "42",
+      "title": "Implement ReLU Activation Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/42",
+      "path": "problems/0042-implement-relu-activation-function",
+      "first_solved_at": "2026-09-30T18:05:10.915Z",
+      "last_pushed_at": "2026-09-30T18:05:10.915Z",
+      "language": "python",
+      "lines": 6
+    },
+    "problem:39": {
+      "kind": "problem",
+      "id": "39",
+      "title": "Implementation of Log Softmax Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/39",
+      "path": "problems/0039-implementation-of-log-softmax-function",
+      "first_solved_at": "2026-09-30T18:08:06.591Z",
+      "last_pushed_at": "2026-09-30T18:08:06.591Z",
+      "language": "python",
+      "lines": 8
+    },
+    "problem:44": {
+      "kind": "problem",
+      "id": "44",
+      "title": "Leaky ReLU Activation Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/44",
+      "path": "problems/0044-leaky-relu-activation-function",
+      "first_solved_at": "2026-09-30T18:09:04.336Z",
+      "last_pushed_at": "2026-09-30T18:09:04.336Z",
+      "language": "python",
+      "lines": 5
+    },
+    "problem:56": {
+      "kind": "problem",
+      "id": "56",
+      "title": "KL Divergence Between Two Normal Distributions",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/56",
+      "path": "problems/0056-kl-divergence-between-two-normal-distributions",
+      "first_solved_at": "2026-09-30T18:19:52.185Z",
+      "last_pushed_at": "2026-09-30T18:19:52.185Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:263": {
+      "kind": "problem",
+      "id": "263",
+      "title": "Implement Binary Cross-Entropy Loss",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/263",
+      "path": "problems/0263-implement-binary-cross-entropy-loss",
+      "first_solved_at": "2026-09-30T19:14:23.323Z",
+      "last_pushed_at": "2026-09-30T19:14:23.323Z",
+      "language": "python",
+      "lines": 20
+    },
+    "problem:23": {
+      "kind": "problem",
+      "id": "23",
+      "title": "Softmax Activation Function Implementation ",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/23",
+      "path": "problems/0023-softmax-activation-function-implementation",
+      "first_solved_at": "2026-09-30T23:53:24.062Z",
+      "last_pushed_at": "2026-09-30T23:53:24.062Z",
+      "language": "python",
+      "lines": 7
+    }
+  }
+}
