@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**11** solved · 11 problems · 0 labs · 0 math
+**14** solved · 14 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -17,10 +17,13 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implementation of Log Softmax Function](https://www.deep-ml.com/problems/39) | easy | 2026-09-30 | [solution](problems/0039-implementation-of-log-softmax-function) |
 | [KL Divergence Between Two Normal Distributions](https://www.deep-ml.com/problems/56) | easy | 2026-09-30 | [solution](problems/0056-kl-divergence-between-two-normal-distributions) |
 | [Leaky ReLU Activation Function](https://www.deep-ml.com/problems/44) | easy | 2026-09-30 | [solution](problems/0044-leaky-relu-activation-function) |
+| [Mean Squared Error from Scratch](https://www.deep-ml.com/problems/1228) | easy | 2026-10-02 | [solution](problems/1228-mean-squared-error-from-scratch) |
 | [Sigmoid Activation Function Understanding](https://www.deep-ml.com/problems/22) | easy | 2026-09-30 | [solution](problems/0022-sigmoid-activation-function-understanding) |
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-09-30 | [solution](problems/0024-single-neuron) |
 | [Softmax Activation Function Implementation ](https://www.deep-ml.com/problems/23) | easy | 2026-09-30 | [solution](problems/0023-softmax-activation-function-implementation) |
 | [Build Scaled Dot-Product Attention](https://www.deep-ml.com/problems/490) | medium | 2026-10-01 | [solution](problems/0490-build-scaled-dot-product-attention) |
+| [Implement Adam Optimization Algorithm](https://www.deep-ml.com/problems/49) | medium | 2026-10-02 | [solution](problems/0049-implement-adam-optimization-algorithm) |
+| [Implement Masked Self-Attention](https://www.deep-ml.com/problems/107) | medium | 2026-10-02 | [solution](problems/0107-implement-masked-self-attention) |
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-10-01 | [solution](problems/0053-implement-self-attention-mechanism) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-01 | [solution](problems/0025-single-neuron-with-backpropagation) |
 
