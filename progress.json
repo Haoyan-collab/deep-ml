@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:22:47.730Z",
+  "generated_at": "2026-10-04T02:48:45.515Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -247,6 +247,19 @@
       "last_pushed_at": "2026-10-04T02:22:46.558Z",
       "language": "python",
       "lines": 12
+    },
+    "problem:957": {
+      "kind": "problem",
+      "id": "957",
+      "title": "Implement Batched Causal Self-Attention",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/957",
+      "path": "problems/0957-implement-batched-causal-self-attention",
+      "first_solved_at": "2026-10-04T02:48:44.001Z",
+      "last_pushed_at": "2026-10-04T02:48:44.001Z",
+      "language": "python",
+      "lines": 35
     }
   }
 }
