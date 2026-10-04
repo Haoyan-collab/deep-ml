@@ -46,13 +46,15 @@ def multi_head_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, n_heads: i
     Returns:
         Attention output of shape (seq_len, d_model)
     """
+    d_model = Q.shape[-1]
+    assert d_model % n_heads == 0, "not divisible!"
     seq_len = Q.shape[0]
-    assert Q.shape[-1] % n_heads == 0, "not divisible"
-    d_k = Q.shape[-1] // n_heads
-    Q = Q.reshape(Q.shape[0],n_heads,d_k).transpose(1,0,2)
-    K = K.reshape(K.shape[0],n_heads,d_k).transpose(1,0,2)
-    V = V.reshape(V.shape[0],n_heads,d_k).transpose(1,0,2)
-    return self_attention(Q,K,V).swapaxes(0,1).reshape(seq_len,n_heads*d_k)
+    d_k = d_model // n_heads
+    Q = Q.reshape(seq_len,n_heads,d_k).swapaxes(0,1)
+    K = K.reshape(seq_len,n_heads,d_k).swapaxes(0,1)
+    V = V.reshape(seq_len,n_heads,d_k).swapaxes(0,1)
 
+    output = self_attention(Q,K,V)
+    return output.swapaxes(0,1).reshape(seq_len,d_model)
     # Your code here
     pass
