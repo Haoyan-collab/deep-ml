@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:15:32.894Z",
+  "generated_at": "2026-10-04T02:22:47.730Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -234,6 +234,19 @@
       "last_pushed_at": "2026-10-04T02:15:31.673Z",
       "language": "python",
       "lines": 19
+    },
+    "problem:956": {
+      "kind": "problem",
+      "id": "956",
+      "title": "Apply Dropout to Attention Weights",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/956",
+      "path": "problems/0956-apply-dropout-to-attention-weights",
+      "first_solved_at": "2026-10-04T02:22:46.558Z",
+      "last_pushed_at": "2026-10-04T02:22:46.558Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
