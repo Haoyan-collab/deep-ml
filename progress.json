@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:01:54.682Z",
+  "generated_at": "2026-10-05T18:21:51.227Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -312,6 +312,19 @@
       "last_pushed_at": "2026-10-05T01:08:44.447Z",
       "language": "python",
       "lines": 34
+    },
+    "problem:408": {
+      "kind": "problem",
+      "id": "408",
+      "title": "Pre-Norm vs Post-Norm Transformer Block",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/408",
+      "path": "problems/0408-pre-norm-vs-post-norm-transformer-block",
+      "first_solved_at": "2026-10-05T18:21:49.559Z",
+      "last_pushed_at": "2026-10-05T18:21:49.559Z",
+      "language": "python",
+      "lines": 35
     }
   }
 }
