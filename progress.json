@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:33:21.008Z",
+  "generated_at": "2026-10-07T18:46:50.364Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -390,6 +390,19 @@
       "last_pushed_at": "2026-10-07T18:33:18.104Z",
       "language": "python",
       "lines": 17
+    },
+    "problem:1224": {
+      "kind": "problem",
+      "id": "1224",
+      "title": "Single Linear Neuron Forward",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/1224",
+      "path": "problems/1224-single-linear-neuron-forward",
+      "first_solved_at": "2026-10-07T18:46:47.421Z",
+      "last_pushed_at": "2026-10-07T18:46:47.421Z",
+      "language": "python",
+      "lines": 19
     }
   }
 }
