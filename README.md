@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**48** solved · 48 problems · 0 labs · 0 math
+**49** solved · 49 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -52,6 +52,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [One Adam Update Step](https://www.deep-ml.com/problems/1236) | medium | 2026-10-08 | [solution](problems/1236-one-adam-update-step) |
 | [One Training Step](https://www.deep-ml.com/problems/1219) | medium | 2026-10-07 | [solution](problems/1219-one-training-step) |
 | [Pre-Norm vs Post-Norm Transformer Block](https://www.deep-ml.com/problems/408) | medium | 2026-10-05 | [solution](problems/0408-pre-norm-vs-post-norm-transformer-block) |
+| [RoPE with Position Offset for KV Cache](https://www.deep-ml.com/problems/1029) | medium | 2026-10-08 | [solution](problems/1029-rope-with-position-offset-for-kv-cache) |
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-10-08 | [solution](problems/0381-rotary-positional-embeddings-rope) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-08 | [solution](problems/1235-sgd-with-momentum-step) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-01 | [solution](problems/0025-single-neuron-with-backpropagation) |

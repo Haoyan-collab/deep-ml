@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:17:43.977Z",
+  "generated_at": "2026-10-08T19:03:16.769Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -622,6 +622,19 @@
       "path": "problems/0381-rotary-positional-embeddings-rope",
       "first_solved_at": "2026-10-08T18:17:42.431Z",
       "last_pushed_at": "2026-10-08T18:17:42.431Z",
+      "language": "python",
+      "lines": 30
+    },
+    "problem:1029": {
+      "kind": "problem",
+      "id": "1029",
+      "title": "RoPE with Position Offset for KV Cache",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1029",
+      "path": "problems/1029-rope-with-position-offset-for-kv-cache",
+      "first_solved_at": "2026-10-08T19:03:14.907Z",
+      "last_pushed_at": "2026-10-08T19:03:14.907Z",
       "language": "python",
       "lines": 30
     }
