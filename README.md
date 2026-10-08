@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**39** solved · 39 problems · 0 labs · 0 math
+**40** solved · 40 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -33,6 +33,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-03 | [solution](problems/0087-adam-optimizer) |
 | [Binary Cross-Entropy from Logits](https://www.deep-ml.com/problems/1229) | medium | 2026-10-08 | [solution](problems/1229-binary-cross-entropy-from-logits) |
 | [Build Scaled Dot-Product Attention](https://www.deep-ml.com/problems/490) | medium | 2026-10-01 | [solution](problems/0490-build-scaled-dot-product-attention) |
+| [Dropout in Train vs Eval Mode](https://www.deep-ml.com/problems/1230) | medium | 2026-10-08 | [solution](problems/1230-dropout-in-train-vs-eval-mode) |
 | [Dropout Layer](https://www.deep-ml.com/problems/151) | medium | 2026-10-05 | [solution](problems/0151-dropout-layer) |
 | [Gradient of a Weighted Sum of Squares](https://www.deep-ml.com/problems/1223) | medium | 2026-10-08 | [solution](problems/1223-gradient-of-a-weighted-sum-of-squares) |
 | [Implement Adam Optimization Algorithm](https://www.deep-ml.com/problems/49) | medium | 2026-10-02 | [solution](problems/0049-implement-adam-optimization-algorithm) |
