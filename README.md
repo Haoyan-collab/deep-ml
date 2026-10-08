@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**35** solved · 35 problems · 0 labs · 0 math
+**36** solved · 36 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -14,6 +14,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | --- | --- | --- | --- |
 | [Apply Dropout to Attention Weights](https://www.deep-ml.com/problems/956) | easy | 2026-10-04 | [solution](problems/0956-apply-dropout-to-attention-weights) |
 | [Create and Inspect a Tensor](https://www.deep-ml.com/problems/1220) | easy | 2026-10-07 | [solution](problems/1220-create-and-inspect-a-tensor) |
+| [Gradient of a Square with Autograd](https://www.deep-ml.com/problems/1222) | easy | 2026-10-08 | [solution](problems/1222-gradient-of-a-square-with-autograd) |
 | [Implement Binary Cross-Entropy Loss](https://www.deep-ml.com/problems/263) | easy | 2026-09-30 | [solution](problems/0263-implement-binary-cross-entropy-loss) |
 | [Implement ReLU Activation Function](https://www.deep-ml.com/problems/42) | easy | 2026-09-30 | [solution](problems/0042-implement-relu-activation-function) |
 | [Implement the Hard Sigmoid Activation Function](https://www.deep-ml.com/problems/96) | easy | 2026-10-04 | [solution](problems/0096-implement-the-hard-sigmoid-activation-function) |
