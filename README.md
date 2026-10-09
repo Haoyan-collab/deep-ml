@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**50** solved · 50 problems · 0 labs · 0 math
+**51** solved · 51 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -14,6 +14,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | --- | --- | --- | --- |
 | [Apply Dropout to Attention Weights](https://www.deep-ml.com/problems/956) | easy | 2026-10-04 | [solution](problems/0956-apply-dropout-to-attention-weights) |
 | [Batch a TensorDataset with DataLoader](https://www.deep-ml.com/problems/1237) | easy | 2026-10-08 | [solution](problems/1237-batch-a-tensordataset-with-dataloader) |
+| [Compute Multi-class Cross-Entropy Loss](https://www.deep-ml.com/problems/134) | easy | 2026-10-09 | [solution](problems/0134-compute-multi-class-cross-entropy-loss) |
 | [Count Parameters of a Sequential Model](https://www.deep-ml.com/problems/1218) | easy | 2026-10-08 | [solution](problems/1218-count-parameters-of-a-sequential-model) |
 | [Create and Inspect a Tensor](https://www.deep-ml.com/problems/1220) | easy | 2026-10-07 | [solution](problems/1220-create-and-inspect-a-tensor) |
 | [Gradient of a Square with Autograd](https://www.deep-ml.com/problems/1222) | easy | 2026-10-08 | [solution](problems/1222-gradient-of-a-square-with-autograd) |
