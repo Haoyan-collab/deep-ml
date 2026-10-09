@@ -5,15 +5,13 @@ def pos_encoding(position: int, d_model: int):
 	if position == 0 or d_model <= 0:
 		return -1
 
-	# pos(position, 1), to later calculate with (dims,)
-	pos = np.arange(position).reshape(position,1)
-	dims = np.arange(0, d_model, 2)
-	angels = pos / (10000**(dims/d_model)) #(position,dims)
+	i = np.arange(0, d_model, 2)  #(d_model/2,)
+	pos = np.arange(position)[:,None] #(position, 1)
 
-	pe = np.zeros((position,d_model))
-	pe[:,0:d_model:2] = np.sin(angels)
-	#if d_model is odd, 1:d_model:2 != d_model / 2
-	pe[:,1:d_model:2] = np.cos(angels[:,:pe[:,1:d_model:2].shape[-1]]) 
+	angles = pos / (10000**(i / d_model)) #(position, d_model/2)
 
-	pos_encoding = np.float16(pe)
-	return pos_encoding
+	pe = np.zeros((position, d_model))
+	pe[:,0::2] = np.sin(angles)
+	pe[:,1::2] = np.cos(angles[:,:pe[:,1::2].shape[-1]])
+
+	return pe.astype(np.float16)
