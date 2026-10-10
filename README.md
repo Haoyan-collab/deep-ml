@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**51** solved · 51 problems · 0 labs · 0 math
+**52** solved · 52 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -58,6 +58,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-10-08 | [solution](problems/0381-rotary-positional-embeddings-rope) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-08 | [solution](problems/1235-sgd-with-momentum-step) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-01 | [solution](problems/0025-single-neuron-with-backpropagation) |
+| [Sliding Window Attention](https://www.deep-ml.com/problems/388) | medium | 2026-10-10 | [solution](problems/0388-sliding-window-attention) |
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-10-07 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-10-05 | [solution](problems/0491-build-a-transformer-encoder-layer) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-03 | [solution](problems/0094-implement-multi-head-attention) |
