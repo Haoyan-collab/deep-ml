@@ -1,6 +1,6 @@
-import numpy as np
+import torch
 
-def apply_rope(x: np.ndarray, positions: np.ndarray, base: float = 10000.0) -> np.ndarray:
+def apply_rope(x: torch.Tensor, positions: torch.Tensor, base: float = 10000.0) -> torch.Tensor:
     """
     Apply Rotary Positional Embeddings (RoPE) to input embeddings.
     
@@ -14,17 +14,16 @@ def apply_rope(x: np.ndarray, positions: np.ndarray, base: float = 10000.0) -> n
     """
     # Your code here
     d_model = x.shape[-1]
-    theta = 1 / base ** (2 * np.arange(0, d_model//2, 1) / d_model)
-    angels = positions[:,None] * theta[None,:]
+    dim = torch.arange(0,d_model,2,device = x.device)
 
-    x_even = x[:,0::2]
-    x_odd = x[:,1::2]
+    theta = 1 / (base ** (dim/d_model)) #(d_model//2,)
+    angles = positions[:,None] * theta
 
-    cos = np.cos(angels)
-    sin = np.sin(angels)
+    sin = torch.sin(angles)
+    cos = torch.cos(angles)
 
-    out = np.zeros(x.shape)
-    out[:,0::2] = x_even * cos - x_odd * sin
-    out[:,1::2] = x_even * sin + x_odd * cos
+    pe = torch.zeros((positions.shape[0],d_model))
+    pe[:,0::2] = x[:,0::2] * cos - x[:,1::2] * sin
+    pe[:,1::2] = x[:,0::2] * sin + x[:,1::2] * cos
 
-    return out
+    return pe

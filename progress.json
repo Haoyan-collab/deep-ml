@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:16:45.950Z",
+  "generated_at": "2026-10-12T19:34:15.336Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -621,9 +621,9 @@
       "url": "https://www.deep-ml.com/problems/381",
       "path": "problems/0381-rotary-positional-embeddings-rope",
       "first_solved_at": "2026-10-08T18:17:42.431Z",
-      "last_pushed_at": "2026-10-08T18:17:42.431Z",
+      "last_pushed_at": "2026-10-12T19:34:11.823Z",
       "language": "python",
-      "lines": 30
+      "lines": 29
     },
     "problem:1029": {
       "kind": "problem",
