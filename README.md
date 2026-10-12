@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**57** solved · 57 problems · 0 labs · 0 math
+**58** solved · 58 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -67,6 +67,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-10-05 | [solution](problems/0491-build-a-transformer-encoder-layer) |
 | [Flash Attention v1 - Forward Pass](https://www.deep-ml.com/problems/208) | hard | 2026-10-12 | [solution](problems/0208-flash-attention-v1-forward-pass) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-03 | [solution](problems/0094-implement-multi-head-attention) |
+| [Multi-Head Latent Attention (MLA)](https://www.deep-ml.com/problems/405) | hard | 2026-10-12 | [solution](problems/0405-multi-head-latent-attention-mla) |
 | [Positional Encoding Calculator](https://www.deep-ml.com/problems/85) | hard | 2026-10-08 | [solution](problems/0085-positional-encoding-calculator) |
 | [Pre-Norm GPT Transformer Block Forward Pass](https://www.deep-ml.com/problems/1056) | hard | 2026-10-04 | [solution](problems/1056-pre-norm-gpt-transformer-block-forward-pass) |
 

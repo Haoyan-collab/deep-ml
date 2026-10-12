@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:49:14.393Z",
+  "generated_at": "2026-10-12T19:16:45.950Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -741,6 +741,19 @@
       "last_pushed_at": "2026-10-12T18:26:52.757Z",
       "language": "python",
       "lines": 30
+    },
+    "problem:405": {
+      "kind": "problem",
+      "id": "405",
+      "title": "Multi-Head Latent Attention (MLA)",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/405",
+      "path": "problems/0405-multi-head-latent-attention-mla",
+      "first_solved_at": "2026-10-12T19:16:42.461Z",
+      "last_pushed_at": "2026-10-12T19:16:42.461Z",
+      "language": "python",
+      "lines": 64
     }
   }
 }
