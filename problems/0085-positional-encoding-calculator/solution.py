@@ -1,17 +1,26 @@
-import numpy as np
-
+import torch
 def pos_encoding(position: int, d_model: int):
-	# Your code here
-	if position == 0 or d_model <= 0:
-		return -1
+    """
+    Compute positional encodings for Transformer models.
 
-	i = np.arange(0, d_model, 2)  #(d_model/2,)
-	pos = np.arange(position)[:,None] #(position, 1)
+    Args:
+        position: sequence length (number of positions)
+        d_model: model dimensionality
 
-	angles = pos / (10000**(i / d_model)) #(position, d_model/2)
+    Returns:
+        torch.Tensor of shape (position, d_model) with dtype float16,
+        or -1 if position == 0 or d_model <= 0.
+    """
+    # Your code here
+    if position==0 or d_model <= 0:
+        return -1
+    dim = torch.arange(0, d_model, 2) #(d_model//2,)
+    pos = torch.arange(position)[:,None]  #(position,1)
 
-	pe = np.zeros((position, d_model))
-	pe[:,0::2] = np.sin(angles)
-	pe[:,1::2] = np.cos(angles[:,:pe[:,1::2].shape[-1]])
+    angels = pos / (10000.0**(dim/d_model))
+    pe = torch.zeros((position,d_model))
 
-	return pe.astype(np.float16)
+    pe[:,0::2] = torch.sin(angels)
+    pe[:,1::2] = torch.cos(angels[:,0:pe[:,1::2].shape[-1]])
+
+    return pe.to(torch.float16)
