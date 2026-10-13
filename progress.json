@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:19:32.529Z",
+  "generated_at": "2026-10-13T04:20:54.728Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -777,7 +777,7 @@
       "url": "https://www.deep-ml.com/problems/1346",
       "path": "problems/1346-causal-and-padding-masks-with-scaled-dot-product-attention",
       "first_solved_at": "2026-10-13T04:19:30.806Z",
-      "last_pushed_at": "2026-10-13T04:19:30.806Z",
+      "last_pushed_at": "2026-10-13T04:20:52.459Z",
       "language": "python",
       "lines": 48
     }

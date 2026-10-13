@@ -29,7 +29,7 @@ def attention(q, k, v, key_padding_mask=None, causal=False):
         attn_mask = key_padding_mask & c_mask
     
     elif c_mask is not None:
-        attn_mask = c_mask.reshape(batch,1,c_mask.shape[-2],-1)
+        attn_mask = c_mask
 
     elif key_padding_mask is not None:
         attn_mask = key_padding_mask
