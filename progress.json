@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:16:29.431Z",
+  "generated_at": "2026-10-16T19:15:28.059Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -819,6 +819,19 @@
       "last_pushed_at": "2026-10-15T21:16:27.738Z",
       "language": "python",
       "lines": 27
+    },
+    "problem:138": {
+      "kind": "problem",
+      "id": "138",
+      "title": "Find the Best Gini-Based Split for a Binary Decision Tree",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/138",
+      "path": "problems/0138-find-the-best-gini-based-split-for-a-binary-decision-tree",
+      "first_solved_at": "2026-10-16T19:15:26.487Z",
+      "last_pushed_at": "2026-10-16T19:15:26.487Z",
+      "language": "python",
+      "lines": 34
     }
   }
 }
