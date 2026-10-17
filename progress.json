@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T05:46:18.373Z",
+  "generated_at": "2026-10-17T18:14:11.786Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -842,9 +842,9 @@
       "url": "https://www.deep-ml.com/problems/20",
       "path": "problems/0020-decision-tree-learning",
       "first_solved_at": "2026-10-16T20:28:54.084Z",
-      "last_pushed_at": "2026-10-16T20:28:54.084Z",
+      "last_pushed_at": "2026-10-17T18:14:11.270Z",
       "language": "python",
-      "lines": 79
+      "lines": 110
     },
     "problem:307": {
       "kind": "problem",
