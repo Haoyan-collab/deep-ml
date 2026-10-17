@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:37:50.004Z",
+  "generated_at": "2026-10-17T23:51:55.749Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -855,9 +855,9 @@
       "url": "https://www.deep-ml.com/problems/307",
       "path": "problems/0307-implement-bagging-classifier-from-scratch",
       "first_solved_at": "2026-10-17T02:03:58.315Z",
-      "last_pushed_at": "2026-10-17T02:03:58.315Z",
+      "last_pushed_at": "2026-10-17T23:51:52.552Z",
       "language": "python",
-      "lines": 62
+      "lines": 61
     },
     "problem:173": {
       "kind": "problem",
