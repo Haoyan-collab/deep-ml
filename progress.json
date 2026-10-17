@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:14:11.786Z",
+  "generated_at": "2026-10-17T18:37:50.004Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -829,9 +829,9 @@
       "url": "https://www.deep-ml.com/problems/138",
       "path": "problems/0138-find-the-best-gini-based-split-for-a-binary-decision-tree",
       "first_solved_at": "2026-10-16T19:15:26.487Z",
-      "last_pushed_at": "2026-10-16T19:15:26.487Z",
+      "last_pushed_at": "2026-10-17T18:37:49.494Z",
       "language": "python",
-      "lines": 34
+      "lines": 36
     },
     "problem:20": {
       "kind": "problem",
