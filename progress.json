@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:20:16.669Z",
+  "generated_at": "2026-11-03T21:38:46.266Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -1014,6 +1014,19 @@
       "last_pushed_at": "2026-11-03T21:20:14.959Z",
       "language": "python",
       "lines": 34
+    },
+    "problem:276": {
+      "kind": "problem",
+      "id": "276",
+      "title": "Implement ROC Curve Calculation",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/276",
+      "path": "problems/0276-implement-roc-curve-calculation",
+      "first_solved_at": "2026-11-03T21:38:44.521Z",
+      "last_pushed_at": "2026-11-03T21:38:44.521Z",
+      "language": "python",
+      "lines": 33
     }
   }
 }
