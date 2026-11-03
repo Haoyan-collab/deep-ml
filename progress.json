@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:38:46.266Z",
+  "generated_at": "2026-11-03T22:10:48.068Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -1027,6 +1027,19 @@
       "last_pushed_at": "2026-11-03T21:38:44.521Z",
       "language": "python",
       "lines": 33
+    },
+    "problem:193": {
+      "kind": "problem",
+      "id": "193",
+      "title": "Compute Confusion Matrix with Normalization",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/193",
+      "path": "problems/0193-compute-confusion-matrix-with-normalization",
+      "first_solved_at": "2026-11-03T22:10:46.356Z",
+      "last_pushed_at": "2026-11-03T22:10:46.356Z",
+      "language": "python",
+      "lines": 37
     }
   }
 }
