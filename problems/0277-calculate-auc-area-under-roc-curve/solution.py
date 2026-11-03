@@ -32,6 +32,8 @@ def calculate_auc(y_true, y_scores):
     tpr = np.append(0,tp[indices]/P)
     fpr = np.append(0,fp[indices]/N)
 
-    return float(np.trapezoid(tpr,fpr))
+    return np.sum((tpr[1:]+tpr[:-1])/2 * (fpr[1:]-fpr[:-1]))
+
+    # return np.trapezoid(tpr,fpr)
 
 
