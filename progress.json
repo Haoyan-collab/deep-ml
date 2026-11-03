@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:22:39.189Z",
+  "generated_at": "2026-11-03T03:12:04.899Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -1001,6 +1001,19 @@
       "last_pushed_at": "2026-10-29T00:55:33.303Z",
       "language": "python",
       "lines": 18
+    },
+    "problem:277": {
+      "kind": "problem",
+      "id": "277",
+      "title": "Calculate AUC (Area Under ROC Curve)",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/277",
+      "path": "problems/0277-calculate-auc-area-under-roc-curve",
+      "first_solved_at": "2026-11-03T03:12:03.622Z",
+      "last_pushed_at": "2026-11-03T03:12:03.622Z",
+      "language": "python",
+      "lines": 38
     }
   }
 }
