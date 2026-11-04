@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:10:48.068Z",
+  "generated_at": "2026-11-04T23:12:36.174Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -1038,6 +1038,19 @@
       "path": "problems/0193-compute-confusion-matrix-with-normalization",
       "first_solved_at": "2026-11-03T22:10:46.356Z",
       "last_pushed_at": "2026-11-03T22:10:46.356Z",
+      "language": "python",
+      "lines": 37
+    },
+    "problem:964": {
+      "kind": "problem",
+      "id": "964",
+      "title": "Transfer Weights from Linear-Style to Parameter-Style Self-Attention",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/964",
+      "path": "problems/0964-transfer-weights-from-linear-style-to-parameter-style-self-attention",
+      "first_solved_at": "2026-11-04T23:12:34.453Z",
+      "last_pushed_at": "2026-11-04T23:12:34.453Z",
       "language": "python",
       "lines": 37
     }
