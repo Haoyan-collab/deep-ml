@@ -1,22 +1,18 @@
-import numpy as np
+import torch
+import math
+def compute_qkv(X: torch.Tensor, W_q: torch.Tensor, W_k: torch.Tensor, W_v: torch.Tensor):
+    """
+    Compute Query (Q), Key (K), and Value (V) matrices.
+    """
+    return torch.matmul(X, W_q), torch.matmul(X, W_k), torch.matmul(X, W_v)
 
-def compute_qkv(X: np.ndarray, W_q: np.ndarray, W_k: np.ndarray, W_v: np.ndarray):
-	"""
-	Compute Query (Q), Key (K), and Value (V) matrices.
-	"""
-	return np.dot(X, W_q), np.dot(X, W_k), np.dot(X, W_v)
-
-def masked_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, mask: np.ndarray) -> np.ndarray:
-	"""
-	Compute masked self-attention.
-	"""
-	# Your code here
-	S = Q @ np.swapaxes(K, -1, -2) / np.sqrt(K.shape[-1])
-	S += mask
-
-	max_s = np.max(S, axis=-1, keepdims = True)
-	# max_s = np.where(max_s == -np.inf, 0, max_s)
-	S -= max_s
-	sft_S = np.exp(S) / np.sum(np.exp(S), axis=-1, keepdims = True)
-	return sft_S @ V
-	pass
+def masked_attention(Q: torch.Tensor, K: torch.Tensor, V: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:
+    """
+    Compute masked self-attention.
+    """
+    # Your code here
+    seq_len,d_model = Q.shape
+    z = Q @ K.transpose(-1,-2) / math.sqrt(d_model)
+    z += mask
+    z = torch.softmax(z,dim=-1)
+    return z @ V
